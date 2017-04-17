@@ -1,0 +1,88 @@
+.row label {
+	display:inline-block;
+}
+
+.calendar {
+	width:100%;
+	margin:0;
+	font-family:verdana;
+}
+.calendar td {
+	border:1px solid #ccc; 
+	width:14%; 
+	height:100px; 
+	vertical-align:top;
+}
+.daynum { 
+	display:block;
+	float:right; 
+	font-size:10px; 
+	margin-bottom:6px; 
+}
+.holyday {
+	color:red; 
+}
+.eventday{
+	color:#000;
+	clear:both;
+	font-size:10px;
+	padding:6px;
+	font-family:verdana;
+	background: -moz-linear-gradient(top,  rgba(149,225,229,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(149,225,229,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(149,225,229,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(149,225,229,1) 0%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(149,225,229,1) 0%,rgba(125,185,232,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(149,225,229,1) 0%,rgba(125,185,232,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95e1e5', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+}
+.eventday p {
+	font-family:verdana; 
+	font-size:10px;
+}
+
+.filter{}
+.filter label { 
+	float:left;
+	margin-right:24px;
+}
+		
+.NewsCalWeekend, .NewsCalToday, .NewsCalDefault, .NewsCalOtherMonth , .NewsCalHeader, .NewsCalMonthNav, .NewsCalDay, .NewsCalNews{
+	font-size:9pt;
+	color:#000000;
+}
+.NewsCalToday, .NewsCalDefault, .NewsCalOtherMonth, .NewsCalWeekend, .NewsCalHeader {
+	padding-left:8px;
+}
+.NewsCalToday{
+	background-color:#dadded;
+}
+.NewsCalDefault{
+	background-color:#FFFFFF;
+}
+.NewsCalOtherMonth{
+	background-color:#F8F9EF;
+}
+.NewsCalWeekend{
+	background-color:#F6E5E1;
+}
+.NewsCalHeader{
+	background-color:#EFF1F9;
+	color:#365D91;
+}
+.NewsCalTable, .NewsCalTable tr, .NewsCalTable td{
+	border-collapse:collapse;
+	border:1px solid #B3B3B3;
+}
+.NewsCalMonthNav{
+}
+.NewsCalDay{
+	color:#000000;
+}
+.NewsCalDayOther{
+	color:#365D91;
+}
+.NewsCalNews{
+	color:#7488B9;
+	font-size:8pt;
+}
